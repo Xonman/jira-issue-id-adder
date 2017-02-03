@@ -2,10 +2,10 @@
   "name": "Transmedia Custom Field Fixer",
   "description": "Fixes custom fields by applying them to new and updated issues that do not already have them.",
   "key": "tmg-custom-field-fixer",
-  "baseUrl": "https://2c98c6a5.ngrok.io",
+  "baseUrl": "https://pure-dawn-23928.herokuapp.com/",
   "vendor": {
-    "name": "Example, Inc.",
-    "url": "http://example.com"
+    "name": "Transmedia Group",
+    "url": "http://transmedia.group"
   },
   "authentication": {
     "type": "jwt"

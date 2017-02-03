@@ -1,0 +1,34 @@
+{
+  "name": "Transmedia Custom Field Fixer",
+  "description": "Fixes custom fields by applying them to new and updated issues that do not already have them.",
+  "key": "tmg-custom-field-fixer",
+  "baseUrl": "https://2c98c6a5.ngrok.io",
+  "vendor": {
+    "name": "Example, Inc.",
+    "url": "http://example.com"
+  },
+  "authentication": {
+    "type": "jwt"
+  },
+  "lifecycle": {
+    "installed": "/installed-callback"
+  },
+  "apiVersion": 1,
+  "modules": {
+    "webhooks": [{
+        "event": "jira:issue_created",
+        "url": "/issue/created",
+        "excludeBody": false
+      },
+      {
+        "event": "jira:issue_updated",
+        "url": "/issue/updated",
+        "excludeBody": false
+      }
+    ]
+  },
+  "scopes": [
+    "read",
+    "write"
+  ]
+}

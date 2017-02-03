@@ -1,0 +1,12 @@
+{
+    "key": "tmg-custom-field-fixer",
+    "clientKey": "7fd7df0b-4d45-3cf4-bca8-27d16384394a",
+    "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0vHeOqB+DTa9NDZIHzQha+ObAbkwh4c6qp5ojU762f4j83iob7W/Bal/lFoAMx7twiUq3ZhbFrx6Ut+s7vKVPV2O+87sJtl5/tB/2ziFWDgxmqpryY8BgAFxzDXGYW+4GCfVlN1HVon8czcbFvRpVdlnZZ1FpWNXo+cGlam3kTwIDAQAB",
+    "sharedSecret": "9+IlYRYRBzFMHT60rGAVGuNOC4MK13Lw+jz6BGV9dCDkHnSnxGs1MZMrl7gjmHoZ34QVmvPRJ1ZxyQi9wiGBVA",
+    "serverVersion": "100026",
+    "pluginsVersion": "1.2.22",
+    "baseUrl": "https://transmedia-dev.atlassian.net",
+    "productType": "jira",
+    "description": "Atlassian JIRA at https://transmedia-dev.atlassian.net ",
+    "eventType": "installed"
+}

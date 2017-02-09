@@ -36,10 +36,6 @@ module.exports.routes = {
     view: 'homepage'
   },
 
-  'GET /helloworld.html': {
-    view: 'helloworld'
-  },
-
   'POST /issue/created': 'IssueController.created',
   'POST /issue/updated': 'IssueController.updated',
   
